@@ -1,0 +1,7 @@
+#kapcsolat div{
+    display: flex;
+    margin: 5px 0px;
+}
+#kapcsolat label{
+    width: 100px;
+}
