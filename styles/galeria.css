@@ -1,0 +1,32 @@
+#galeria {
+    display: flex;
+    margin: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.kep {
+    width: 250px;
+}
+
+.kep img {
+    width: 250px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.kep_name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media (max-width: 600px) {
+    .kep img {
+        width: 100%;
+    }
+    .kep{
+        width: 100%;
+    }
+}
